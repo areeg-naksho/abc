@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+a.ahref {
+  color: #bedab9;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.ahref:hover {
+  color: #2d2a26;
+  opacity: 0.75;
+  mix-blend-mode: multiply;
+}
+
+a.underline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.enlargable {
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+::placeholder {
+  text-align: center;
+  margin-top: 0;
+}
+
+.box {
+  background-color: #2d2a26;
+  opacity: 0.75;
+  mix-blend-mode: multiply;
+  margin-top: 0.1vh;
+  position: absolute;
+  margin-left: 3.8vw;
+}
+
+.swiper {
+  width: 100%;
+  height: 250px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #bedab9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+
+.swiper-button-next:after {
+  margin-right: -1vw;
+  color: #2d2a26;
+  font-size: 15px !important;
+}
+
+.swiper-button-prev:after {
+  margin-left: -1vw;
+  color: #2d2a26;
+  font-size: 15px !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .head {
+    margin-top: 1%;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .logo {
+    width: 260px;
+    height: 51.5px;
+    margin-left: 8%;
+    margin-top: -20px;
+  }
+
+  .downloadicon {
+    margin-top: -0.6vh;
+    margin-left: 0.5vw;
+    position: absolute;
+  }
+
+  .topnav {
+    padding-top: 45px;
+  }
+
+  .bgColor {
+    transition: all 1s;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    border-bottom: 1px solid lightgray;
+    height: 13vh;
+  }
+
+  .imgg {
+    filter: drop-shadow(0 0 0.4rem);
+  }
+
+  .topnav a.current {
+    color: #bedab9;
+    letter-spacing: 1px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #bedab9;
+  }
+
+  .navbar-item-home {
+    color: white;
+    margin-left: 28%;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+  .navbar-items {
+    color: white;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+  .navbar-item-facebook:hover {
+    width: 9.5px;
+    content: url("../public/img/fbb.png");
+  }
+
+  .navbar-item-instagram:hover {
+    margin-left: 1vw;
+    width: 20px;
+    content: url("../public/img/instab.png");
+  }
+
+  .navbar-item-whatsapp:hover {
+    margin-left: 1vw;
+    width: 20px;
+    content: url("../public/img/wab.png");
+  }
+
+  .social {
+    margin-left: 92%
+  }
+
+  .navbar-item-instagram {
+    margin-left: 1vw;
+  }
+
+  .navbar-item-whatsapp {
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .instabox {
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: 70.5vh;
+  }
+
+  .boxinlarge {
+    width: 672px;
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 12.5vw;
+  }
+
+  .aahref:hover {
+    color: white;
+    background-color: #bedab9;
+  }
+
+  .bgColor {
+    transition: all 1s;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    padding-top: 22px;
+  }
+
+  .social a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: none;
+  }
+
+  .logo {
+    width: 35vw;
+    height: 10vh;
+    margin-left: 6%;
+    margin-top: -1vh;
+  }
+
+  .boxmobile {
+    background-color: #2d2a26;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+  }
+
+  .downloadicon {
+    margin-bottom: -0.5vh;
+    margin-left: 0.7vw;
+    width: 18px;
+  }
+
+  .topnav a.navbar-item-home {
+    z-index: 3;
+    margin-top: 9vh;
+    color: white;
+    display: none;
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .social {
+    z-index: 3;
+    margin-top: 7.2vh;
+    color: white;
+  }
+
+  .topnav div.icon {
+    float: right;
+    display: block;
+    margin-top: 1vh;
+    padding-bottom: 55px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1.1vh;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav div:hover {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    color: white;
+  }
+
+  .textmobile {
+    font-size: 9px;
+    margin-top: -0.3vh;
+    margin-left: 12vw;
+  }
+
+  .ahref {
+    font-size: 9px;
+    margin-top: -1vh;
+    margin-left: 7vw;
+  }
+
+  .downloadicon {
+    margin-bottom: -1.4vh;
+    margin-left: 0.7vw;
+    width: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .textmobile {
+    margin-top: -3vh;
+  }
+
+  .instabox {
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 71.5vh;
+  }
+
+  .boxinlarge {
+    width: 672px;
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 12.5vw;
+  }
+
+  .aahref:hover {
+    color: white;
+    background-color: #bedab9;
+  }
+
+  .bgColor {
+    transition: all 1s;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    padding-top: 22px;
+  }
+
+  .social a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 26px 16px;
+    text-decoration: none;
+    display: none;
+  }
+
+  .logo {
+    width: 35vw;
+    height: 6vh;
+    margin-left: 6%;
+    margin-top: -1vh;
+  }
+
+  .boxmobile {
+    background-color: #2d2a26;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+  }
+
+  .downloadicon {
+    margin-bottom: -0.5vh;
+    margin-left: 0.7vw;
+    width: 18px;
+  }
+
+  .topnav a.navbar-item-home {
+    z-index: 3;
+    margin-top: 9vh;
+    color: white;
+    display: none;
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .social {
+    z-index: 3;
+    margin-top: 7.2vh;
+    color: white;
+  }
+
+  .topnav div.icon {
+    float: right;
+    display: block;
+    margin-top: 3vh;
+    padding-bottom: 55px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1.1vh;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav div:hover {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    color: white;
+  }
+
+  .textmobile {
+    margin-top: 1vh;
+    font-size: 12px;
+    margin-left: 2vw;
+  }
+
+  .ahref {
+    font-size: 12px;
+    margin-left: 1.5vw;
+  }
+
+  .downloadicon {
+    margin-top: 2vh;
+    margin-left: 0.7vw;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    padding: 15px 16px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    padding-top: 5px;
+  }
+
+  .logo {
+    width: 40vw;
+    height: 10vh;
+    margin-left: 6%;
+    margin-top: 1vh;
+  }
+
+  .ahref {
+    font-size: 6px;
+  }
+
+  .textmobile {
+    font-size: 7.5px;
+  }
+
+  .downloadicon {
+    margin-bottom: -1.4vh;
+    margin-left: 0.7vw;
+    width: 10px;
+  }
+
+  .instabox {
+    font-size: 13px;
+    margin-left: 80px;
+    margin-top: 71.5vh;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+
+  .topnav {
+    overflow: hidden;
+    background-color: #2d2a26;
+    mix-blend-mode: multiply;
+    padding-top: 5.1px;
+  }
+
+  .logo {
+    width: 40vw;
+    height: 8vh;
+    margin-left: 6%;
+    margin-top: 1vh;
+  }
+
+  .ahref {
+    font-size: 9px;
+  }
+
+  .textmobile {
+    font-size: 9px;
+  }
+
+  .downloadicon {
+    margin-bottom: -1vh;
+    margin-left: 0.7vw;
+    width: 11px;
+  }
+
+  .boxinlarge {
+    width: 80vw;
+    position: absolute;
+    margin-top: 27vh;
+    margin-left: 9vw;
+  }
+
+  .instabox {
+    font-size: 13px;
+    margin-left: 200px;
+    margin-top: 71.5vh;
+  }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .instaweb {
+    margin-left: -5vw;
+  }
+
+  .navabottom {
+    margin-left: -9vw;
+  }
+
+  .logo {
+    width: 249px;
+    height: 45px;
+    margin-left: 3.7%;
+    margin-top: -5px;
+  }
+}
